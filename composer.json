@@ -1,0 +1,82 @@
+{
+  "name": "siter/eva",
+  "version": "2.0.0",
+  "homepage": "http://www.siter.fr",
+  "authors": [
+    {
+      "name": "Curtis Pelissier",
+      "email": "curtis.pelissier@siter.fr",
+      "role": "Developer"
+    },
+    {
+      "name": "Enzo Cornand",
+      "email": "enzo.cornand@siter.fr",
+      "role": "Developer"
+    },
+    {
+      "name": "Jérémie Massin",
+      "email": "jmassin@siter.fr",
+      "role": "Manager"
+    },
+    {
+      "name": "Jules Bertrand",
+      "email": "j.bertrand@siter.fr",
+      "role": "Lead Developer"
+    }
+  ],
+  "license": "proprietary",
+  "require": {
+    "php": ">=7.1",
+    "beberlei/doctrineextensions": "^1.0",
+    "doctrine/doctrine-orm-module": "^2.1",
+    "endroid/qr-code": "^3.2",
+    "jmikola/geojson": "^1.0",
+    "phpoffice/phpspreadsheet": "^1.2",
+    "zendframework/zend-mvc": "^3.1",
+    "zendframework/zend-mvc-console": "^1.2",
+    "zendframework/zend-mvc-i18n": "^1.1",
+    "zendframework/zend-session": "^2.8",
+    "zendframework/zend-json": "^3.1",
+    "zendframework/zend-mail": "^2.9",
+    "ramsey/uuid": "^3.7",
+    "spipu/html2pdf": "^5.1",
+    "guzzlehttp/guzzle": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Admin\\": "module/Admin/src/",
+      "Advancement\\": "module/Advancement/src/",
+      "Age\\": "module/Age/src/",
+      "Alert\\": "module/Alert/src/",
+      "Analysis\\": "module/Analysis/src/",
+      "Attachment\\": "module/Attachment/src/",
+      "Application\\": "module/Application/src/",
+      "Bootstrap\\": "module/Bootstrap/src/",
+      "Budget\\": "module/Budget/src/",
+      "Convention\\": "module/Convention/src/",
+      "Core\\": "module/Core/src/",
+      "Directory\\": "module/Directory/src/",
+      "Export\\": "module/Export/src/",
+      "Field\\": "module/Field/src/",
+      "Home\\": "module/Home/src/",
+      "Import\\": "module/Import/src/",
+      "Indicator\\": "module/Indicator/src/",
+      "Adresse\\": "module/Adresse/src/",
+      "Map\\": "module/Map/src/",
+      "Memo\\": "module/Memo/src/",
+      "Note\\": "module/Note/src/",
+      "Project\\": "module/Project/src/",
+      "Keyword\\": "module/Keyword/src/",
+      "Task\\": "module/Task/src/",
+      "Time\\": "module/Time/src/",
+      "User\\": "module/User/src/",
+      "Profile\\": "module/Profile/src/"
+    },
+    "classmap": [
+      "data/phpdocx/src/Classes/"
+    ]
+  },
+  "require-dev": {
+    "zendframework/zend-developer-tools": "^1.2"
+  }
+}
